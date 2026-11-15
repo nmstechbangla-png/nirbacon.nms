@@ -1,0 +1,21 @@
+:root{--bg:#f8f5ee;--ln:#e3dcc9;--hero:#0b5d46}
+[data-theme=dark]{--bg:#0a1511}
+.hero{background:radial-gradient(520px 320px at 90% 10%,#e0b44c44,transparent),linear-gradient(160deg,#0f6e54,#06382a);color:#fff;padding:44px 0 56px}
+.hg{display:grid;gap:28px;align-items:center}
+@media(min-width:800px){.hg{grid-template-columns:1.3fr 1fr}}
+.kick{color:#f1c14e;font-weight:600}
+.hero h1{font-size:clamp(40px,10vw,72px);margin:6px 0 12px}
+.lead{color:#d6e6dd;font-size:19px;max-width:30em;margin-bottom:24px}
+.hero .btn.o{color:#fff;border-color:#ffffff77}
+.pt{aspect-ratio:4/5;border:3px solid #e0b44c;border-radius:28px 28px 120px 28px;background-color:#ffffff1f;max-width:340px;width:100%;justify-self:center}
+.chips{position:sticky;top:50px;z-index:50;background:var(--sf);border-bottom:1px solid var(--ln)}
+.chips .w{display:flex;gap:8px;overflow-x:auto;padding:10px 0;scrollbar-width:none}
+.chips a{flex:none;text-decoration:none;padding:4px 16px;border-radius:999px;border:1px solid var(--ln);font-size:15px}
+.chips a:hover{background:var(--br);color:var(--on)}
+h2{padding-left:14px;border-left:5px solid var(--ac)}
+.sub{padding-left:19px}
+.alt{background:var(--sf);border-block:1px solid var(--ln)}
+.alt .card,.alt details{background:var(--bg)}
+.card h3{color:var(--br);margin-bottom:6px}[data-theme=dark] .card h3{color:var(--ac)}
+.wo{display:grid;gap:6px}
+.wo p{display:flex;justify-content:space-between;gap:12px;border-bottom:1px dotted var(--ln)}

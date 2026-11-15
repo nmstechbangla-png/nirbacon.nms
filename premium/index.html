@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="bn" data-def="dark">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="../assets/css/base.css">
+<title>[প্রার্থীর নাম] — প্রিমিয়াম ডেমো | এনএমএস টেক বাংলা</title>
+<meta name="description" content="প্রিমিয়াম প্যাকেজের ডেমো: অ্যাডমিন প্যানেল, সমস্যা ট্র্যাকার, স্বেচ্ছাসেবক তালিকা, ভোটার সহায়তা চ্যাটবট ও ইনস্টল সুবিধা।">
+<meta name="keywords" content="নির্বাচন, ইউনিয়ন পরিষদ, চেয়ারম্যান প্রার্থী, মেম্বার প্রার্থী, ভোটার স্লিপ">
+<meta property="og:title" content="[প্রার্থীর নাম] — নির্বাচনী ওয়েবসাইট"><meta property="og:type" content="website"><meta property="og:locale" content="bn_BD">
+<meta name="theme-color" content="#0b1220"><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg" type="image/svg+xml">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"[প্রার্থীর নাম] — নির্বাচনী ওয়েবসাইট","inLanguage":"bn"}</script>
+<link rel="stylesheet" href="style.css">
+<script src="../assets/js/main.js"></script><script src="premium.js"></script>
+</head>
+<body>
+<div class="demo-bar"><b>ডেমো ডিজাইন</b><a href="../">← হোমে ফিরুন</a><button class="tg" data-theme-btn aria-label="ডার্ক/লাইট মোড"><svg viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z"/></svg></button></div>
+<header class="hero"><div class="w hg">
+ <div><p class="kick">ইউনিয়ন পরিষদ নির্বাচন · [ইউনিয়নের নাম]</p><h1 id="hero-name">[প্রার্থীর নাম]</h1>
+  <p class="lead" id="hero-intro">উন্নয়ন, স্বচ্ছতা ও সবার জন্য সমান সুযোগ। আপনার একটি ভোট বদলে দিতে পারে আমাদের এলাকা।</p>
+  <div class="row"><button class="btn" id="install">সফটওয়্যার ডাউনলোড করুন</button><a class="btn o" href="#admin">অ্যাডমিন প্যানেল দেখুন</a></div></div>
+ <div class="ph pt" id="hero-photo"></div>
+</div></header>
+<nav class="chips"><div class="w"><a href="#countdown">কাউন্টডাউন</a><a href="#banners">ব্যানার</a><a href="#slip">স্লিপ</a><a href="#ward">ওয়ার্ড</a><a href="#news">নিউজ</a><a href="#video">ভিডিও</a><a href="#admin">অ্যাডমিন</a><a href="#tracker">সমস্যা ট্র্যাকার</a><a href="#vol">স্বেচ্ছাসেবক</a><a href="#contact">যোগাযোগ</a></div></nav>
+<section id="countdown"><div class="w"><h2>ভোটের কাউন্টডাউন</h2><p class="sub">নমুনা তারিখ ধরে হিসাব চলছে। আসল সাইটে নির্বাচন কমিশনের তারিখ বসবে।</p>
+ <div class="cd" data-date="2027-02-15T08:00:00"><div><b>০</b>দিন</div><div><b>০</b>ঘণ্টা</div><div><b>০</b>মিনিট</div><div><b>০</b>সেকেন্ড</div></div></div></section>
+
+<section id="banners" class="alt"><div class="w"><h2>প্রচারণার ব্যানার (৫টি ডিজাইন)</h2><p class="sub">ডিজাইন বেছে নাম ও ছবি দিন, তারপর ডাউনলোড করুন।</p>
+ <div class="cv-wrap" data-banner>
+  <canvas width="800" height="800" role="img" aria-label="ব্যানার প্রিভিউ"></canvas>
+  <div class="card f">
+   <div class="dz" role="group" aria-label="ডিজাইন"><button data-d="0" aria-pressed="true">ডিজাইন ১</button><button data-d="1" aria-pressed="false">ডিজাইন ২</button><button data-d="2" aria-pressed="false">ডিজাইন ৩</button><button data-d="3" aria-pressed="false">ডিজাইন ৪</button><button data-d="4" aria-pressed="false">ডিজাইন ৫</button></div>
+   <div><label for="bn1">নাম</label><input id="bn1" data-n placeholder="[প্রার্থীর নাম]"></div>
+   <div><label for="br1">পদ</label><select id="br1" data-r><option>চেয়ারম্যান প্রার্থী</option><option>মেম্বার প্রার্থী</option></select></div>
+   <div><label for="bs1">স্লোগান</label><input id="bs1" data-s placeholder="আপনার ভোট, আপনার অধিকার"></div>
+   <div><label for="bp1">ছবি (ঐচ্ছিক)</label><input id="bp1" type="file" accept="image/*" data-p></div>
+   <button class="btn" data-dl>ব্যানার ডাউনলোড</button>
+  </div></div></div></section>
+
+<section id="slip"><div class="w"><h2>ভোটার স্লিপ তৈরি</h2><p class="sub">তথ্য লিখুন, স্লিপ তৈরি হবে। প্রিন্ট করে বা PDF সেভ করে নিন।</p>
+ <div class="cv-wrap">
+  <form id="slip-form" class="card f" onsubmit="return false">
+   <div><label for="s1">ভোটারের নাম</label><input id="s1" name="n" placeholder="[ভোটারের নাম]"></div>
+   <div class="two"><div><label for="s2">ভোটার নম্বর</label><input id="s2" name="no" inputmode="numeric" placeholder="123456"></div><div><label for="s3">ক্রমিক</label><input id="s3" name="sr" inputmode="numeric" placeholder="45"></div></div>
+   <div class="two"><div><label for="s4">ওয়ার্ড</label><input id="s4" name="w" inputmode="numeric" placeholder="3"></div><div><label for="s5">ভোটকেন্দ্র</label><input id="s5" name="c" placeholder="[কেন্দ্রের নাম]"></div></div>
+   <button class="btn" id="slip-print" type="button">প্রিন্ট করুন</button>
+  </form>
+  <div class="slip"><h3>ভোটার স্লিপ · [প্রার্থীর নাম]</h3>
+   <p><span>নাম</span><b data-k="n"></b></p><p><span>ভোটার নম্বর</span><b data-k="no"></b></p><p><span>ক্রমিক</span><b data-k="sr"></b></p><p><span>ওয়ার্ড</span><b data-k="w"></b></p><p><span>ভোটকেন্দ্র</span><b data-k="c"></b></p>
+   <small>ডেমো স্লিপ · এনএমএস টেক বাংলা</small></div>
+ </div></div></section>
+
+<section id="ward" class="alt"><div class="w"><h2>ওয়ার্ডভিত্তিক তথ্য</h2><p class="sub">ওয়ার্ড বেছে নিন (সব সংখ্যা নমুনা)।</p>
+ <div class="card f" style="max-width:520px"><div><label for="ward-sel">ওয়ার্ড</label><select id="ward-sel"></select></div><div class="wo" id="ward-out"></div></div></div></section>
+
+<section id="news"><div class="w"><h2>নিউজ ও ঘোষণা</h2><p class="sub">সর্বশেষ খবর ও সভার ঘোষণা।</p>
+ <details open><summary>উঠান বৈঠকের ঘোষণা · ১২ ডিসেম্বর (নমুনা)</summary><p>আগামী শুক্রবার বিকেল ৪টায় ইউনিয়ন মাঠে উঠান বৈঠক অনুষ্ঠিত হবে। সবাই আমন্ত্রিত।</p></details>
+ <details><summary>নতুন কমিউনিটি ক্লিনিক পরিদর্শন (নমুনা)</summary><p>এলাকার স্বাস্থ্যসেবা নিয়ে স্থানীয় বাসিন্দাদের সাথে মতবিনিময় হয়েছে।</p></details>
+ <details><summary>যুব স্বেচ্ছাসেবক দলে যোগ দিন (নমুনা)</summary><p>আপনার ওয়ার্ডের স্বেচ্ছাসেবক হতে যোগাযোগ করুন।</p></details></div></section>
+
+<section id="video" class="alt"><div class="w"><h2>ভিডিও</h2><p class="sub">প্রার্থীর বার্তা ও প্রচারণার ভিডিও।</p>
+ <button class="vid" data-vid aria-label="ভিডিও চালান"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span></button></div></section>
+
+<section id="admin"><div class="w"><h2>অ্যাডমিন প্যানেল (নমুনা)</h2><p class="sub">প্রার্থী নিজে Gmail OTP দিয়ে ঢুকে লেখা ও ছবি বদলাতে পারবেন। এখানে বদলালে উপরের হিরো সাথে সাথে বদলে যাবে।</p>
+ <div class="card f" style="max-width:560px">
+  <div id="ad-1" class="f"><div><label for="ad-mail">Gmail ঠিকানা</label><input id="ad-mail" type="email" placeholder="name@gmail.com" autocomplete="email"></div><button class="btn" id="ad-send">OTP পাঠান</button></div>
+  <div id="ad-2" class="f" hidden><div><label for="ad-otp">৬ সংখ্যার OTP</label><input id="ad-otp" inputmode="numeric" maxlength="6" placeholder="১২৩৪৫৬"></div><button class="btn" id="ad-ok">লগইন করুন</button><small>ডেমো OTP: 123456</small></div>
+  <div id="ad-3" class="f" hidden><div><label for="ad-title">নাম</label><input id="ad-title" placeholder="[প্রার্থীর নাম]"></div><div><label for="ad-intro">পরিচিতির লেখা</label><textarea id="ad-intro" rows="3"></textarea></div><div><label for="ad-ph">ছবি আপডেট</label><input id="ad-ph" type="file" accept="image/*"></div><div class="row"><button class="btn" id="ad-save">সংরক্ষণ করুন</button><button class="btn o" id="ad-out">লগআউট</button></div></div>
+ </div></div></section>
+
+<section id="tracker" class="alt"><div class="w"><h2>সমস্যা ট্র্যাকার</h2><p class="sub">এলাকার সমস্যা নম্বর দিয়ে নথিভুক্ত হয় এবং স্ট্যাটাস বদলানো যায়।</p>
+ <form id="tr-form" class="card f" style="margin-bottom:16px"><div class="two"><div><label for="tr-w">ওয়ার্ড</label><select id="tr-w" class="wards"></select></div><div><label for="tr-t">সমস্যা</label><input id="tr-t" required placeholder="যেমন: রাস্তার বাতি নষ্ট"></div></div><button class="btn">সমস্যা যোগ করুন</button></form>
+ <div class="grid" id="tr-list"></div></div></section>
+
+<section id="vol"><div class="w"><h2>স্বেচ্ছাসেবক তালিকা (ওয়ার্ড অনুযায়ী)</h2><p class="sub">ওয়ার্ড বেছে স্বেচ্ছাসেবক দেখুন বা নতুন যোগ করুন।</p>
+ <form id="vl-form" class="card f" style="margin-bottom:16px"><div class="two"><div><label for="vl-n">নাম</label><input id="vl-n" required></div><div><label for="vl-p">মোবাইল</label><input id="vl-p" inputmode="tel" required></div><div><label for="vl-w">ওয়ার্ড</label><select id="vl-w" class="wards"></select></div></div><button class="btn">যোগ করুন</button></form>
+ <div class="card f"><div><label for="vl-f">ওয়ার্ড অনুযায়ী দেখুন</label><select id="vl-f"><option value="0">সব ওয়ার্ড</option></select></div><div id="vl-list" class="f"></div></div></div></section>
+
+<section id="about"><div class="w"><h2>পরিচিতি ও ম্যানিফেস্টো</h2>
+ <div class="grid"><div class="card"><h3>পরিচিতি</h3><p>প্রার্থীর সংক্ষিপ্ত পরিচয় ও সমাজসেবার অভিজ্ঞতা এখানে থাকবে (নমুনা)।</p></div><div class="card"><h3>ম্যানিফেস্টো</h3><p>শিক্ষা, স্বাস্থ্য, রাস্তা ও স্বচ্ছতা নিয়ে প্রতিশ্রুতি (নমুনা)।</p></div></div>
+ <div class="grid" style="margin-top:16px"><div class="ph"></div><div class="ph"></div><div class="ph"></div></div></div></section>
+
+<section id="contact" class="alt"><div class="w"><h2>যোগাযোগ ও শেয়ার</h2><p class="sub">ডেমোতে এনএমএস টেক বাংলার নম্বর দেখানো হয়েছে।</p>
+ <div class="row"><a class="btn" href="tel:01872241478">কল করুন</a><a class="btn g" href="https://wa.me/8801872241478" target="_blank" rel="noopener">WhatsApp</a><button class="btn o" data-share="wa">শেয়ার: WhatsApp</button><button class="btn o" data-share="fb">Facebook</button><button class="btn o" data-share="copy">লিংক কপি</button></div></div></section>
+<footer>ডেমো ডিজাইন · এনএমএস টেক বাংলা</footer>
+<a class="wa" href="https://wa.me/8801872241478" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 00-8.6 15L2 22l5.2-1.4A10 10 0 1012 2z"/></svg></a>
+<button class="cbtn" id="cb" aria-label="ভোটার সহায়তা চ্যাটবট">সহায়তা</button>
+<div class="cbox" id="cbox" hidden><div class="ch"><b>ভোটার সহায়তা</b><button id="cx" aria-label="বন্ধ করুন">✕</button></div><div id="cl" class="cl" aria-live="polite"></div><div class="cq" id="cq"></div><form id="cf" class="cf"><input id="ci" placeholder="প্রশ্ন লিখুন…" aria-label="প্রশ্ন"><button class="btn s">পাঠান</button></form></div>
+</body></html>
