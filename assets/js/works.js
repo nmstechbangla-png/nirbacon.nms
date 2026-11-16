@@ -4,3 +4,6 @@
 const WORKS=[
  {name:'মুরাদ জিয়া উর রহমান (সুমন)',role:'চেয়ারম্যান প্রার্থী',place:'রাজগঞ্জ ইউনিয়ন, বেগমগঞ্জ, নোয়াখালী',pkg:'',url:'https://sumonchairman.vercel.app'}
 ];
+const WORKS=[
+ {name:'মুরাদ জিয়া উর রহমান (সুমন)',role:'চেয়ারম্যান প্রার্থী',place:'রাজগঞ্জ ইউনিয়ন, বেগমগঞ্জ, নোয়াখালী',pkg:'',url:'https://sumonchairman.vercel.app'}
+];
